@@ -128,3 +128,40 @@ h1 {
     rgba(17, 122, 255, 1) 100%
   );
 }
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 12px;
+  margin: 6px 0;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  background: #f9fafb;
+}
+
+.todo-text {
+  flex: 1;
+  margin: 0 12px;
+  font-size: 16px;
+}
+
+.todo-text.completed {
+  text-decoration: line-through;
+  color: #9ca3af;
+}
+
+.btn.delete {
+  background: #dc2626;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 14px;
+  padding: 4px 10px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.btn.delete:hover {
+  background: #b91c1c;
+}
