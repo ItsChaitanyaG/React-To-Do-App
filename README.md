@@ -19,8 +19,7 @@ This project demonstrates the use of React components, props, state, and event h
 ---
 
 ## 🔗 Live Demo
-👉 [Try it here](https://yourusername.github.io/react-todo-app/)  
-*(or replace with your Vercel/Netlify link)*
+👉 [Try it here] ( https://react-to-do-app-silk-alpha.vercel.app/ )
 
 ---
 
