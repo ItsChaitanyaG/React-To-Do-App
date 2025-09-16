@@ -35,7 +35,7 @@ function TodoList() {
             <li class="todo-row" key={todo.id}>
               <span style={{ textDecoration: todo.completed ? "line-through" : "none"}}>{todo.text}</span> 
             <span><input type='checkbox' checked={todo.completed} onChange={() => toggleTodo(todo.id)}></input></span>
-            <span><button onClick={() => deleteTodo(todo.id)}>X</button></span> 
+            <span><button className="btn delete" onClick={() => deleteTodo(todo.id)}>X</button></span> 
              <br/><br/> </li>))}
         </ul>
     </div>
