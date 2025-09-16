@@ -32,7 +32,7 @@ function TodoList() {
         <TodoForm onSubmit={addTodo}/> <br/><br/>
         <ul >
           {todos.map(todo => (
-            <li class="todo-row" key={todo.id}>
+            <li className="todo-row" key={todo.id}>
               <span style={{ textDecoration: todo.completed ? "line-through" : "none"}}>{todo.text}</span> 
             <span><input type='checkbox' checked={todo.completed} onChange={() => toggleTodo(todo.id)}></input></span>
             <span><button className="btn delete" onClick={() => deleteTodo(todo.id)}>X</button></span> 
