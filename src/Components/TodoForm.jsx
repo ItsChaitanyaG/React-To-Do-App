@@ -18,7 +18,7 @@ function TodoForm(props) {
   return (
     <>
       <form>
-          <label htmlFor="task">Task:</label>
+          <label htmlFor="task" id="task">Task:</label>
           <input type="text" 
           id="task" 
           placeholder="Enter a task" 
