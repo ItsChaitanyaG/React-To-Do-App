@@ -9,6 +9,7 @@ This project demonstrates the use of React components, props, state, and event h
 - Add new tasks
 - Mark tasks as completed
 - Delete tasks
+- (Trying to fix checkbox and delete button layouts)
 
 ---
 
